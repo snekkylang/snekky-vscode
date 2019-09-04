@@ -1,0 +1,30 @@
+{
+    "name": "snekky-lang",
+    "displayName": "Snekky Language",
+    "description": "Adds syntax highlighting for Snekky code",
+    "publisher": "senkju",
+    "version": "0.0.1",
+    "icon": "icon.png",
+    "repository": {
+        "url": "https://git.liquidbounce.net/SenkJu/snekky-lang-vscode"
+    },
+    "engines": {
+        "vscode": "^1.38.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "snekky",
+            "aliases": ["Snekky", "snekky"],
+            "extensions": [".snek"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "snekky",
+            "scopeName": "source.snek",
+            "path": "./syntaxes/snekky.tmLanguage.json"
+        }]
+    }
+}
