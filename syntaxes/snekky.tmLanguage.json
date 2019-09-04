@@ -1,0 +1,95 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Snekky",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+        },
+        {
+            "include": "#comments"
+        }, 
+        {
+            "include": "#numbers"
+        },
+        {
+            "include": "#variables"
+        },
+        {
+            "include": "#booleans"
+        },
+        {
+            "include": "#functions"
+        },
+        {
+            "include": "#modules"
+        },
+        {
+            "include": "#module-names"
+        },
+        {
+            "include": "#calls"
+        },
+        {
+            "include": "#variable-names"
+        }
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.snekky",
+				"match": "\\b(if|else|return|while|await|async|import)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.snekky",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.snekky",
+					"match": "\\\\."
+				}
+			]
+        },
+        "comments": {
+            "name": "comment.line.double-slash",
+            "match": "\/\/[^\n\r]*"
+        },
+        "numbers": {
+            "name": "constant.numeric",
+            "match": "[0-9](.[0-9])*"
+        },
+        "variables": {
+            "name":"variable.language",
+            "match": "\\b(mut|let)\\b"
+        },
+        "booleans": {
+            "name":"constant.language.boolean",
+            "match": "\\b(true|false)\\b"
+        },
+        "functions": {
+            "name": "constant.language.function",
+            "match": "\\bfunc\\b"
+        },
+        "modules": {
+            "name": "constant.language.class",
+            "match": "\\bmodule\\b"
+        },
+        "module-names": {
+            "name": "entity.name.class",
+            "match": "([A-Z][a-z]+)*[A-Z][a-z]*"
+        },
+        "calls": {
+            "name": "support.function.any-method.yourlang",
+            "match": "\\w+[(]+"
+        },
+        "variable-names": {
+            "name": "variable.name",
+            "match": "\\b\\w+\\b"
+        }
+	},
+	"scopeName": "source.snek"
+}
