@@ -2,7 +2,7 @@
 
 This extension provides support for the Snekky programming language.
 
-<img src="https://img.liquidbounce.net/uxc/2019-09-05_01-28-40_Code.png">
+<img src="https://axolotl.pics/mKHQfq4j.png?key=YFwxcf6U2Srul0">
 
 ## Features
 
