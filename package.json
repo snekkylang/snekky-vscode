@@ -1,11 +1,17 @@
 {
     "name": "snekky-lang",
     "displayName": "Snekky Language",
-    "description": "Adds syntax highlighting for Snekky code",
+    "description": "The Snekky Programming Language",
     "publisher": "senkju",
     "version": "0.0.1",
     "icon": "icon.png",
+    "license": "MIT",
+    "keywords": [
+        "snekky",
+        "syntax"
+    ],
     "repository": {
+        "type": "git",
         "url": "https://git.liquidbounce.net/SenkJu/snekky-lang-vscode"
     },
     "engines": {

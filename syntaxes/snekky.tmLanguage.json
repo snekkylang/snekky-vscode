@@ -83,7 +83,7 @@
             "match": "([A-Z][a-z]+)*[A-Z][a-z]*"
         },
         "calls": {
-            "name": "support.function.any-method.yourlang",
+            "name": "support.function.any-method.snekky",
             "match": "\\w+[(]+"
         },
         "variable-names": {
