@@ -55,31 +55,31 @@
 			]
         },
         "comments": {
-            "name": "comment.line.double-slash",
+            "name": "comment.line.double-slash.snekky",
             "match": "\/\/[^\n\r]*"
         },
         "numbers": {
-            "name": "constant.numeric",
+            "name": "constant.numeric.snekky",
             "match": "[0-9](.[0-9])*"
         },
         "variables": {
-            "name":"variable.language",
+            "name":"variable.language.snekky",
             "match": "\\b(mut|let)\\b"
         },
         "booleans": {
-            "name":"constant.language.boolean",
+            "name":"constant.language.boolean.snekky",
             "match": "\\b(true|false)\\b"
         },
         "functions": {
-            "name": "constant.language.function",
+            "name": "constant.language.function.snekky",
             "match": "\\bfunc\\b"
         },
         "modules": {
-            "name": "constant.language.class",
+            "name": "constant.language.class.snekky",
             "match": "\\bmodule\\b"
         },
         "module-names": {
-            "name": "entity.name.class",
+            "name": "entity.name.class.snekky",
             "match": "([A-Z][a-z]+)*[A-Z][a-z]*"
         },
         "calls": {
@@ -87,7 +87,7 @@
             "match": "\\w+[(]+"
         },
         "variable-names": {
-            "name": "variable.name",
+            "name": "variable.name.snekky",
             "match": "\\b\\w+\\b"
         }
 	},
