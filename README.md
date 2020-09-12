@@ -1,15 +1,22 @@
 # Snekky Language
-
 This extension provides support for the Snekky programming language.
 
-<img src="https://axolotl.pics/mKHQfq4j.png?key=YFwxcf6U2Srul0">
+![example](example.png)
 
 ## Features
 
 - Syntax Highlighting
 
+## Installation
+1. Download the latest release from the [releases tab](https://github.com/snekkylang/snekky-vscode/releases).
+2. Install it using `code --install-extension <file>.vsix`.
+3. Restart VS Code.
+
 ## Release Notes
 
 ### 0.0.1
-
 - Initial release
+
+### 0.2.0
+- Added support for new keywords.
+- Fixed first parenthesis of calls being yellow.
