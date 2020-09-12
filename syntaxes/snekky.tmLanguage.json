@@ -1,5 +1,4 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "Snekky",
 	"patterns": [
 		{
@@ -24,10 +23,7 @@
             "include": "#functions"
         },
         {
-            "include": "#modules"
-        },
-        {
-            "include": "#module-names"
+            "include": "#null-literals"
         },
         {
             "include": "#calls"
@@ -40,7 +36,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.snekky",
-				"match": "\\b(if|else|return|while|await|async|import)\\b"
+				"match": "\\b(if|else|return|while|break|for|import)\\b"
 			}]
 		},
 		"strings": {
@@ -74,17 +70,13 @@
             "name": "constant.language.function.snekky",
             "match": "\\bfunc\\b"
         },
-        "modules": {
+        "null-literals": {
             "name": "constant.language.class.snekky",
-            "match": "\\bmodule\\b"
-        },
-        "module-names": {
-            "name": "entity.name.class.snekky",
-            "match": "([A-Z][a-z]+)*[A-Z][a-z]*"
+            "match": "\\bnull\\b"
         },
         "calls": {
             "name": "support.function.any-method.snekky",
-            "match": "\\w+[(]+"
+            "match": "\\w+(?=\\()"
         },
         "variable-names": {
             "name": "variable.name.snekky",
