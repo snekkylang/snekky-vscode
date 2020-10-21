@@ -8,6 +8,9 @@
 			"include": "#strings"
         },
         {
+            "include": "#other-keywords"
+        },
+        {
             "include": "#comments"
         }, 
         {
@@ -49,6 +52,10 @@
 					"match": "\\\\."
 				}
 			]
+        },
+        "other-keywords": {
+            "name": "keyword.snekky",
+            "match": "\\b(in)\\b"
         },
         "comments": {
             "name": "comment.line.double-slash.snekky",
