@@ -23,3 +23,6 @@ This extension provides support for the Snekky programming language.
 
 ### 0.3.0
 - Added support for `in` keyword
+
+### 0.3.1
+- Fixed closures not being highlighted
