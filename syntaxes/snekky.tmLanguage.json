@@ -29,6 +29,9 @@
             "include": "#null-literals"
         },
         {
+            "include": "#closures"
+        },
+        {
             "include": "#calls"
         },
         {
@@ -84,6 +87,10 @@
         "calls": {
             "name": "support.function.any-method.snekky",
             "match": "\\w+(?=\\()"
+        },
+        "closures": {
+            "name": "entity.name.class.snekky",
+            "match": "([A-Z][a-z]+)*[A-Z][a-z]*"
         },
         "variable-names": {
             "name": "variable.name.snekky",
