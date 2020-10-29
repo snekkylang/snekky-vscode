@@ -28,4 +28,7 @@ This extension provides support for the Snekky programming language.
 - Fixed closures not being highlighted
 
 ### 0.4.0
-_ Added support for custom regex syntax
+- Added support for custom regex syntax
+
+### 0.5.0
+- Added support for when keyword
