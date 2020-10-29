@@ -26,3 +26,6 @@ This extension provides support for the Snekky programming language.
 
 ### 0.3.1
 - Fixed closures not being highlighted
+
+### 0.4.0
+_ Added support for custom regex syntax
