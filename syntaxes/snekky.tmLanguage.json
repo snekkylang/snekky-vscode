@@ -36,6 +36,9 @@
         },
         {
             "include": "#variable-names"
+        },
+        {
+            "include": "#regexes"
         }
 	],
 	"repository": {
@@ -95,6 +98,17 @@
         "variable-names": {
             "name": "variable.name.snekky",
             "match": "\\b\\w+\\b"
+        },
+        "regexes": {
+            "match": "(~\\/.*\\/)([igmsu]*)",
+            "captures": {
+                "0": {
+                    "name": "keyword.snekky"
+                },
+                "1": {
+                    "name": "string.regexp.snekky"
+                }
+            }
         }
 	},
 	"scopeName": "source.snek"
