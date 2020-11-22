@@ -31,4 +31,7 @@ This extension provides support for the Snekky programming language.
 - Added support for custom regex syntax
 
 ### 0.5.0
-- Added support for when keyword
+- Added support for `when` keyword
+
+### 0.6.0
+- Added support for `continue` keyword

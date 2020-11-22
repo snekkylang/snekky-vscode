@@ -45,7 +45,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.snekky",
-				"match": "\\b(if|else|return|while|break|for|when|import)\\b"
+				"match": "\\b(if|else|return|while|break|continue|for|when|import)\\b"
 			}]
 		},
 		"strings": {
