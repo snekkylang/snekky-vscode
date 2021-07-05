@@ -14,9 +14,6 @@
             "include": "#comments"
         }, 
         {
-            "include": "#numbers"
-        },
-        {
             "include": "#variables"
         },
         {
@@ -33,6 +30,9 @@
         },
         {
             "include": "#calls"
+        },
+        {
+            "include": "#numbers"
         },
         {
             "include": "#variable-names"
@@ -69,7 +69,7 @@
         },
         "numbers": {
             "name": "constant.numeric.snekky",
-            "match": "[0-9](.[0-9])*"
+            "match": "(0x[0-9A-Fa-f]+)|([0-9](.[0-9])*)"
         },
         "variables": {
             "name":"variable.language.snekky",
@@ -93,7 +93,7 @@
         },
         "closures": {
             "name": "entity.name.class.snekky",
-            "match": "([A-Z][a-z]+)*[A-Z][a-z]*"
+            "match": "[A-Z][a-z|0-9]*"
         },
         "variable-names": {
             "name": "variable.name.snekky",
